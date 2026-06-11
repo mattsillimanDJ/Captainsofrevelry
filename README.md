@@ -19,8 +19,11 @@ npm run build    # production build → dist/
 
 ## Deploy to Cloudflare Pages
 
-1. Push this repo to GitHub (`mattsillimanDJ/Captainsofrevelry`):
+1. Push this repo to GitHub (`mattsillimanDJ/Captainsofrevelry`). First clear some stale lock files left over from the sandboxed build, then push:
    ```bash
+   cd "~/Documents/Claude/Projects/Matt Silliman Websites/Captainsofrevelry"
+   rm -f .git/HEAD.lock .git/index.lock .git/objects/maintenance.lock
+   git add -A && git commit -m "README updates"
    git remote add origin https://github.com/mattsillimanDJ/Captainsofrevelry.git
    git push -u origin main
    ```
