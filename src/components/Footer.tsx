@@ -16,6 +16,7 @@ export function Footer() {
           <li><Link to="/corporate">Corporate &amp; Brand Activations</Link></li>
           <li><Link to="/weddings">Weddings &amp; Private Events</Link></li>
           <li><Link to="/airstream">Rock the Disco Airstream</Link></li>
+          <li><Link to="/events">Our Events</Link></li>
         </ul>
         <ul className="footer__links">
           <li><a href="mailto:info@captainsofrevelry.com">info@captainsofrevelry.com</a></li>

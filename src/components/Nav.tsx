@@ -5,6 +5,7 @@ const links = [
   { to: '/corporate', label: 'Corporate' },
   { to: '/weddings', label: 'Weddings' },
   { to: '/airstream', label: 'The Airstream' },
+  { to: '/events', label: 'Our Events' },
 ];
 
 export function Nav() {

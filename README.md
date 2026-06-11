@@ -8,6 +8,8 @@ Experiential event production site. Vite + React + GSAP/Lenis motion system (sam
 - `/corporate` — Corporate & brand activations
 - `/airstream` — Rock the Disco Airstream (specs + 3 package tiers)
 - `/weddings` — Weddings (3 package tiers)
+- `/events` — Our event brands: Feelgood Sessions, Feelgood in the Park, Beats on the Lake, Alive at Five
+- `/admin` — Hidden image CMS (not linked in nav). Log in with the same email/password as the DJ site CMS, then upload or delete photos in the Events gallery. Backend is the same Supabase project as the DJ site (`cor_gallery` table + `cor-images` storage bucket).
 
 ## Local dev
 
