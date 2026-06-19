@@ -26,7 +26,7 @@ export default function Weddings() {
   return (
     <main>
       <section className="hero hero--inner">
-        <ParallaxBg imageUrl="/images/pro-3.webp" strength={0.2} />
+        <ParallaxBg imageUrl="/images/wedding-ballroom.jpg" strength={0.2} />
         <div className="hero__scrim" />
         <div className="container hero__content">
           <span className="kicker">Weddings &amp; Private Events</span>
@@ -53,7 +53,7 @@ export default function Weddings() {
           </Reveal>
           <Reveal delay={0.15}>
             <div className="media-panel">
-              <ParallaxBg imageUrl="/images/pro-5.webp" strength={0.12} />
+              <ParallaxBg imageUrl="/images/wedding-pavilion.jpg" strength={0.12} />
             </div>
           </Reveal>
         </div>
@@ -68,7 +68,7 @@ export default function Weddings() {
           </Reveal>
           <Reveal delay={0.1} style={{ marginTop: '2.5rem' }}>
             <div className="media-panel media-panel--wide">
-              <ParallaxBg imageUrl="/images/pro-6.webp" strength={0.14} />
+              <ParallaxBg imageUrl="/images/wedding-lakeside.jpg" strength={0.14} />
             </div>
           </Reveal>
         </div>
@@ -101,7 +101,7 @@ export default function Weddings() {
 
       {/* CTA */}
       <section className="cta-band">
-        <ParallaxBg imageUrl="/images/pro-3.webp" strength={0.18} />
+        <ParallaxBg imageUrl="/images/wedding-ballroom.jpg" strength={0.18} />
         <div className="hero__scrim" />
         <div className="container cta-band__content">
           <h2>Let's design your wedding.</h2>
