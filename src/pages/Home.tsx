@@ -53,7 +53,7 @@ export default function Home() {
           <Reveal stagger={0.12} className="grid-3" style={{ marginTop: '3rem' }}>
             <div className="card hover-lift">
               <div className="card__img hover-spring">
-                <img src="/images/pro-2.webp" alt="Corporate brand activation production" loading="lazy" />
+                <img src="/images/airstream-sunset.jpg" alt="Corporate brand activation production" loading="lazy" />
               </div>
               <div className="card__body">
                 <h3>Corporate &amp; Brand Activations</h3>
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             <div className="card hover-lift">
               <div className="card__img hover-spring">
-                <img src="/images/pro-3.webp" alt="Wedding dance floor energy" loading="lazy" />
+                <img src="/images/wedding-dj-production.jpg" alt="Wedding dance floor energy" loading="lazy" />
               </div>
               <div className="card__body">
                 <h3>Weddings &amp; Private Events</h3>
@@ -132,7 +132,7 @@ export default function Home() {
         <div className="container grid-2">
           <Reveal>
             <div className="media-panel">
-              <ParallaxBg imageUrl="/images/pro-5.webp" strength={0.12} />
+              <ParallaxBg imageUrl="/images/airstream-night.jpg" strength={0.12} />
             </div>
           </Reveal>
           <Reveal delay={0.15}>
