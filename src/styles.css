@@ -567,6 +567,45 @@ h3 {
   object-fit: cover;
 }
 
+/* ---------- Event showcase (offset triptych) ---------- */
+.showcase-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  align-items: start;
+}
+
+.showcase-grid .media-panel--portrait {
+  aspect-ratio: 4 / 5;
+}
+
+/* second column drops down for a staggered, editorial feel */
+.showcase-grid .showcase-b {
+  margin-top: 4.5rem;
+}
+
+.showcase-grid .showcase-wide {
+  grid-column: 1 / -1;
+  margin-top: 1.5rem;
+}
+
+.media-panel--showcase {
+  aspect-ratio: 16 / 8;
+}
+
+@media (max-width: 720px) {
+  .showcase-grid {
+    grid-template-columns: 1fr;
+  }
+  .showcase-grid .showcase-b {
+    margin-top: 0;
+  }
+  .media-panel--showcase {
+    aspect-ratio: 4 / 3;
+  }
+}
+
 /* ---------- Footer ---------- */
 .footer {
   border-top: 1px solid var(--line);

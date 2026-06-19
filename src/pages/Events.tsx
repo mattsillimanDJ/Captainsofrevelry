@@ -47,7 +47,7 @@ export default function Events() {
     <main>
       {/* HERO */}
       <section className="hero hero--inner">
-        <ParallaxBg imageUrl="/images/rtd-party-1.webp" strength={0.2} />
+        <ParallaxBg imageUrl="/images/event-dj-lasers.jpg" strength={0.2} />
         <div className="hero__scrim" />
         <div className="container hero__content">
           <span className="kicker">Our Events</span>
@@ -68,6 +68,33 @@ export default function Events() {
           'House Music All Life Long',
         ]}
       />
+
+      {/* SHOWCASE — offset parallax triptych */}
+      <section className="section">
+        <div className="container">
+          <Reveal>
+            <span className="kicker">In the Booth</span>
+            <h2>Where the night peaks.</h2>
+          </Reveal>
+          <div className="showcase-grid">
+            <Reveal className="showcase-a">
+              <div className="media-panel media-panel--portrait">
+                <ParallaxBg imageUrl="/images/event-dj-lasers.jpg" strength={0.18} />
+              </div>
+            </Reveal>
+            <Reveal delay={0.12} className="showcase-b">
+              <div className="media-panel media-panel--portrait">
+                <ParallaxBg imageUrl="/images/event-terminal-west.jpg" strength={0.18} />
+              </div>
+            </Reveal>
+            <Reveal delay={0.18} className="showcase-wide">
+              <div className="media-panel media-panel--showcase">
+                <ParallaxBg imageUrl="/images/feelgood-festival.jpg" strength={0.12} />
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
 
       {/* BRANDS */}
       {brands.map((b, i) => (
