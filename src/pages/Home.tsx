@@ -11,7 +11,7 @@ export default function Home() {
     <main>
       {/* HERO */}
       <section className="hero">
-        <ParallaxBg imageUrl="/images/hero-night.webp" strength={0.22} />
+        <ParallaxBg imageUrl="/images/feelgood-festival.jpg" strength={0.22} />
         <div className="hero__scrim" />
         <div className="container hero__content">
           <span className="kicker">Experiential Event Production · Southeast US</span>
