@@ -3,6 +3,7 @@ import { ParallaxBg } from '../motion/Parallax';
 import { Reveal } from '../motion/Reveal';
 import { SplitText } from '../motion/SplitText';
 import { Magnetic } from '../motion/Magnetic';
+import { Gallery } from '../components/Gallery';
 
 const specs = [
   { title: 'Self-Contained Stage', desc: 'Polished-aluminum Airstream with built-in DJ booth, soundsystem and marquee lighting.' },
@@ -88,8 +89,32 @@ export default function Airstream() {
         </div>
       </section>
 
-      {/* PACKAGES */}
+      {/* GALLERY */}
       <section className="section">
+        <div className="container">
+          <Reveal>
+            <span className="kicker">The Airstream in Action</span>
+            <h2>Various shots from the field.</h2>
+          </Reveal>
+          <div style={{ marginTop: '2.5rem' }}>
+            <Gallery
+              section="airstream"
+              fallback={[
+                '/images/rtd-gallery-2.jpg',
+                '/images/rtd-gallery-1.jpg',
+                '/images/rtd-gallery-3.jpg',
+                '/images/rtd-gallery-5.jpg',
+                '/images/rtd-gallery-4.jpg',
+                '/images/rtd-gallery-6.jpg',
+                '/images/rtd-gallery-7.jpg',
+              ]}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* PACKAGES */}
+      <section className="section section--soft">
         <div className="container">
           <Reveal>
             <span className="kicker">Packages</span>
