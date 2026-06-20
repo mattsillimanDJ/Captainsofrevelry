@@ -35,7 +35,7 @@ const brands = [
   {
     name: 'Alive at Five — House Party',
     kicker: 'Roswell, ATL',
-    image: '/images/crowd-1.webp',
+    image: '/images/alive-at-five.jpg',
     copy: `Roswell's biggest house music party. Alive at Five turns the heart of historic
     Roswell into one giant dance floor — big sound, big lights and a crowd that shows up
     ready. Proof that the suburbs know how to throw down.`,
@@ -89,7 +89,7 @@ export default function Events() {
             </Reveal>
             <Reveal delay={0.18} className="showcase-wide">
               <div className="media-panel media-panel--showcase">
-                <ParallaxBg imageUrl="/images/feelgood-festival.jpg" strength={0.12} />
+                <ParallaxBg imageUrl="/images/events-alive-airstream.jpg" strength={0.12} />
               </div>
             </Reveal>
           </div>
@@ -145,7 +145,8 @@ export default function Events() {
             <Gallery
               section="events"
               fallback={[
-                '/images/rtd-party-2.webp',
+                '/images/events-frontrow.jpg',
+                '/images/feelgood-selfie.jpg',
                 '/images/festival-2.webp',
                 '/images/crowd-2.webp',
                 '/images/festival-stage.webp',
