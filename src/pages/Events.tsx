@@ -18,7 +18,7 @@ const brands = [
   {
     name: 'Feelgood in the Park',
     kicker: 'Open Air',
-    image: '/images/festival-crowd.webp',
+    image: '/images/feelgood-in-the-park.jpg',
     copy: `Feelgood Sessions steps outside. A daytime, open-air celebration of house music,
     movement and sunshine — yoga in the grass, the Rock the Disco Soundsystem under the
     trees, and a dance floor that grows all afternoon. Family-friendly revelry at its
@@ -27,7 +27,7 @@ const brands = [
   {
     name: 'Beats on the Lake',
     kicker: 'Co-Production · Led by Matt Silliman',
-    image: '/images/rtd-lake.webp',
+    image: '/images/beats-on-the-lake.jpg',
     copy: `House music on the water. Beats on the Lake brings the Airstream, premium PK
     sound and a stacked DJ lineup to the lakefront for golden-hour sets you have to see
     to believe. Co-produced with our partners, with Matt Silliman leading the charge.`,
@@ -47,7 +47,7 @@ export default function Events() {
     <main>
       {/* HERO */}
       <section className="hero hero--inner">
-        <ParallaxBg imageUrl="/images/event-dj-lasers.jpg" strength={0.2} />
+        <ParallaxBg imageUrl="/images/events-hero-festival.jpg" strength={0.2} />
         <div className="hero__scrim" />
         <div className="container hero__content">
           <span className="kicker">Our Events</span>
