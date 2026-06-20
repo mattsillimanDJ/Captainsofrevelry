@@ -89,7 +89,7 @@ export default function Events() {
             </Reveal>
             <Reveal delay={0.18} className="showcase-wide">
               <div className="media-panel media-panel--showcase">
-                <ParallaxBg imageUrl="/images/events-alive-airstream.jpg" strength={0.12} />
+                <ParallaxBg imageUrl="/images/events-mardigras-2.jpg" strength={0.12} />
               </div>
             </Reveal>
           </div>
@@ -145,13 +145,14 @@ export default function Events() {
             <Gallery
               section="events"
               fallback={[
+                '/images/events-mardigras-1.jpg',
                 '/images/events-frontrow.jpg',
                 '/images/feelgood-selfie.jpg',
+                '/images/events-alive-airstream.jpg',
                 '/images/festival-2.webp',
                 '/images/crowd-2.webp',
                 '/images/festival-stage.webp',
                 '/images/pro-3.webp',
-                '/images/hero-night.webp',
               ]}
             />
           </div>
