@@ -26,7 +26,7 @@ export default function Weddings() {
   return (
     <main>
       <section className="hero hero--inner">
-        <ParallaxBg imageUrl="/images/wedding-ballroom.jpg" strength={0.2} />
+        <ParallaxBg imageUrl="/images/wedding-pavilion.jpg" strength={0.2} />
         <div className="hero__scrim" />
         <div className="container hero__content">
           <span className="kicker">Weddings &amp; Private Events</span>
@@ -53,7 +53,7 @@ export default function Weddings() {
           </Reveal>
           <Reveal delay={0.15}>
             <div className="media-panel">
-              <ParallaxBg imageUrl="/images/wedding-pavilion.jpg" strength={0.12} />
+              <ParallaxBg imageUrl="/images/wedding-ballroom.jpg" strength={0.12} />
             </div>
           </Reveal>
         </div>
